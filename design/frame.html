@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>World news - Friday 20 November 2026</title>
+<style>
+  :root {
+    --ink: #10172a;
+    --paper: #f4efe4;
+    --rule: #c9bfa9;
+    --red: #c8322b;
+    --navy: #13294b;
+    --teal: #0f6e6a;
+    --amber: #d98a1c;
+    --muted: #4a4f5c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1024px; height: 1024px; overflow: hidden; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Segoe UI", Arial, sans-serif;
+  }
+  .mast {
+    height: 118px;
+    background: var(--navy);
+    color: #fff;
+    padding: 14px 30px 0 30px;
+    position: relative;
+  }
+  .mast .over {
+    font-size: 19px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    color: #f2c14e;
+  }
+  .mast .date {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: 0.5px;
+  }
+  .mast .edition {
+    position: absolute;
+    right: 30px;
+    top: 18px;
+    text-align: right;
+    font-size: 17px;
+    line-height: 24px;
+    color: #cfd8e6;
+    font-weight: 600;
+  }
+  .mast .edition b { color: #fff; font-size: 30px; display: block; line-height: 34px; }
+  .lead {
+    height: 318px;
+    display: flex;
+    border-bottom: 3px solid var(--ink);
+    margin: 0 30px;
+  }
+  .lead svg { flex: 0 0 360px; height: 300px; margin-top: 9px; }
+  .lead .txt { padding: 22px 0 0 26px; }
+  .kicker {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #fff;
+    background: var(--red);
+    padding: 3px 9px;
+    margin-bottom: 8px;
+  }
+  .lead h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 50px;
+    line-height: 54px;
+    font-weight: 700;
+  }
+  .lead p {
+    margin-top: 10px;
+    font-size: 21px;
+    line-height: 27px;
+    color: var(--muted);
+    font-weight: 500;
+  }
+  .grid {
+    margin: 0 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 262px 262px;
+  }
+  .card {
+    padding: 14px 14px 0 14px;
+    border-right: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    position: relative;
+  }
+  .card:nth-child(3n) { border-right: none; }
+  .card:nth-child(n+4) { border-bottom: none; }
+  .card .top { display: flex; align-items: center; gap: 10px; height: 62px; }
+  .card .top svg { flex: 0 0 62px; height: 62px; }
+  .card .tag {
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    line-height: 20px;
+  }
+  .card h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 700;
+    margin-top: 8px;
+  }
+  .card p {
+    font-size: 17px;
+    line-height: 22px;
+    color: var(--muted);
+    margin-top: 7px;
+    font-weight: 500;
+  }
+  .foot {
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    height: 64px;
+    background: var(--ink);
+    color: #d7dbe4;
+    padding: 9px 30px 0 30px;
+    font-size: 14.5px;
+    line-height: 21px;
+  }
+  .foot b { color: #f2c14e; }
+</style>
+</head>
+<body>
+  <div class="mast">
+    <div class="over">THE WORLD IN ONE FRAME &middot; 7 STORIES OF THE DAY</div>
+    <div class="date">Friday, 20 November 2026</div>
+  </div>
+
+  <div class="lead">
+    <!-- Lead illustration: India's east coast with Cyclone Akvan crossing near Gopalpur -->
+    <svg viewBox="0 0 360 300" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0" y="0" width="360" height="300" fill="#cfe3ea"/>
+      <!-- land mass: stylised peninsula, coast running NE to SW -->
+      <path d="M0 0 L250 0 L262 30 L238 62 L214 92 L196 128 L170 160 L150 196 L128 232 L112 268 L104 300 L0 300 Z"
+            fill="#e7dcc0" stroke="#8a7a55" stroke-width="2.5"/>
+      <!-- state labels -->
+      <text x="120" y="70" font-family="Segoe UI, Arial" font-size="19" font-weight="700" fill="#6b5d3c">ODISHA</text>
+      <text x="40" y="200" font-family="Segoe UI, Arial" font-size="17" font-weight="700" fill="#6b5d3c">ANDHRA</text>
+      <text x="40" y="220" font-family="Segoe UI, Arial" font-size="17" font-weight="700" fill="#6b5d3c">PRADESH</text>
+      <text x="236" y="262" font-family="Segoe UI, Arial" font-size="15" font-style="italic" fill="#3f6b78">Bay of Bengal</text>
+      <!-- rain bands -->
+      <g stroke="#3f6b78" stroke-width="2" stroke-linecap="round" opacity="0.55">
+        <line x1="150" y1="40" x2="140" y2="58"/>
+        <line x1="175" y1="36" x2="165" y2="54"/>
+        <line x1="120" y1="104" x2="110" y2="122"/>
+        <line x1="150" y1="116" x2="140" y2="134"/>
+        <line x1="96" y1="140" x2="86" y2="158"/>
+      </g>
+      <!-- cyclone spiral centred on the landfall point -->
+      <g transform="translate(228 76) rotate(-20)">
+        <circle r="74" fill="#ffffff" opacity="0.28"/>
+        <circle r="50" fill="#ffffff" opacity="0.30"/>
+        <!-- storm symbol: eye with two curved arms -->
+        <path d="M-6 -20 C 10 -52, 44 -60, 66 -46" fill="none" stroke="#13294b" stroke-width="14" stroke-linecap="round"/>
+        <path d="M6 20 C -10 52, -44 60, -66 46" fill="none" stroke="#13294b" stroke-width="14" stroke-linecap="round"/>
+        <circle r="24" fill="#13294b"/>
+        <circle r="10" fill="#cfe3ea"/>
+      </g>
+      <!-- landfall marker -->
+      <rect x="236" y="150" width="112" height="28" rx="4" fill="#c8322b"/>
+      <text x="292" y="170" text-anchor="middle" font-family="Segoe UI, Arial" font-size="17" font-weight="800" fill="#fff">GOPALPUR</text>
+      <path d="M250 150 L232 100" stroke="#c8322b" stroke-width="3"/>
+      <circle cx="230" cy="96" r="7" fill="#c8322b" stroke="#fff" stroke-width="2.5"/>
+      <!-- track arrow from the sea -->
+      <path d="M330 236 C 320 214, 306 200, 290 186" fill="none" stroke="#13294b" stroke-width="3" stroke-dasharray="8 6"/>
+      <path d="M290 186 L 292 202 M290 186 L 305 190" stroke="#13294b" stroke-width="3" fill="none"/>
+      <text x="252" y="220" font-family="Segoe UI, Arial" font-size="14" font-weight="700" fill="#13294b">STORM TRACK</text>
+    </svg>
+    <div class="txt">
+      <span class="kicker">INDIA &middot; CYCLONE</span>
+      <h1>Cyclone Akvan makes landfall near Gopalpur</h1>
+      <p>Storm crosses the Odisha&ndash;Andhra coast in the morning, gusts up to 90 km/h; heavy rain floods streets, red alert issued.</p>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <div class="top">
+        <!-- broken bridge -->
+        <svg viewBox="0 0 62 62"><rect width="62" height="62" rx="8" fill="#13294b"/>
+          <path d="M4 32 L25 32 M37 32 L58 32" stroke="#f2c14e" stroke-width="7"/>
+          <path d="M10 32 L10 52 M20 32 L20 52 M42 32 L42 52 M52 32 L52 52" stroke="#f2c14e" stroke-width="4"/>
+          <path d="M31 8 L26 20 L34 20 L28 34" stroke="#ff7b5c" stroke-width="4" fill="none" stroke-linejoin="round"/></svg>
+        <div class="tag" style="color:#13294b">UKRAINE WAR</div>
+      </div>
+      <h2>Putin: no truce talks after Crimean Bridge strikes</h2>
+      <p>Kyiv&rsquo;s European allies urge a winter &ldquo;energy ceasefire&rdquo;.</p>
+    </div>
+    <div class="card">
+      <div class="top">
+        <!-- three leaders as three circles around a table -->
+        <svg viewBox="0 0 62 62"><rect width="62" height="62" rx="8" fill="#7a2a1c"/>
+          <circle cx="18" cy="24" r="8" fill="#fff"/><circle cx="44" cy="24" r="8" fill="#fff"/><circle cx="31" cy="42" r="8" fill="#fff"/>
+          <circle cx="31" cy="30" r="4" fill="#f2c14e"/></svg>
+        <div class="tag" style="color:#7a2a1c">SUMMIT FALLOUT</div>
+      </div>
+      <h2>West weighs Trump&ndash;Xi&ndash;Putin &lsquo;peace declaration&rsquo;</h2>
+      <p>NATO&rsquo;s Rutte rejects &ldquo;Yalta&rdquo; fears; Merz: no deal without Kyiv.</p>
+    </div>
+    <div class="card">
+      <div class="top">
+        <!-- globe with thermometer -->
+        <svg viewBox="0 0 62 62"><rect width="62" height="62" rx="8" fill="#0f6e6a"/>
+          <circle cx="27" cy="31" r="17" fill="none" stroke="#fff" stroke-width="3"/>
+          <path d="M10 31 L44 31 M27 14 C 18 22, 18 40, 27 48 M27 14 C 36 22, 36 40, 27 48" stroke="#fff" stroke-width="2" fill="none"/>
+          <rect x="47" y="12" width="7" height="28" rx="3.5" fill="#fff"/><circle cx="50.5" cy="44" r="6" fill="#ff7b5c"/>
+          <rect x="49" y="24" width="3" height="18" fill="#ff7b5c"/></svg>
+        <div class="tag" style="color:#0f6e6a">CLIMATE &middot; COP31</div>
+      </div>
+      <h2>Antalya talks hit final day split on fossil fuels</h2>
+      <p>Adaptation Fund pledges reach only $50.2 million.</p>
+    </div>
+    <div class="card">
+      <div class="top">
+        <!-- gavel -->
+        <svg viewBox="0 0 62 62"><rect width="62" height="62" rx="8" fill="#4b3f72"/>
+          <rect x="16" y="14" width="24" height="12" rx="3" transform="rotate(-35 28 20)" fill="#fff"/>
+          <rect x="27" y="22" width="6" height="26" rx="3" transform="rotate(-35 30 35)" fill="#f2c14e"/>
+          <rect x="12" y="48" width="30" height="5" rx="2" fill="#fff"/></svg>
+        <div class="tag" style="color:#4b3f72">MYANMAR &middot; JUSTICE</div>
+      </div>
+      <h2>UK expels Myanmar attach&eacute; over genocide ruling</h2>
+      <p>After ICJ verdict on Rohingya, London seeks UN Security Council talks.</p>
+    </div>
+    <div class="card">
+      <div class="top">
+        <!-- falling chart with chip -->
+        <svg viewBox="0 0 62 62"><rect width="62" height="62" rx="8" fill="#a3471a"/>
+          <path d="M8 16 L20 22 L30 18 L40 34 L54 46" stroke="#fff" stroke-width="4" fill="none" stroke-linejoin="round"/>
+          <path d="M54 46 L44 46 M54 46 L54 36" stroke="#fff" stroke-width="4"/>
+          <rect x="10" y="38" width="14" height="14" rx="2" fill="#f2c14e"/></svg>
+        <div class="tag" style="color:#a3471a">MARKETS</div>
+      </div>
+      <h2>AI and chip stocks lead a risk-off retreat</h2>
+      <p>US lawmakers near a bipartisan ban on Chinese cars.</p>
+    </div>
+    <div class="card">
+      <div class="top">
+        <!-- padlock broken -->
+        <svg viewBox="0 0 62 62"><rect width="62" height="62" rx="8" fill="#2d4a2b"/>
+          <path d="M20 28 L20 20 C 20 10, 38 10, 40 18" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round"/>
+          <rect x="14" y="28" width="32" height="24" rx="4" fill="#f2c14e"/>
+          <circle cx="30" cy="38" r="4" fill="#2d4a2b"/><rect x="28" y="40" width="4" height="7" fill="#2d4a2b"/></svg>
+        <div class="tag" style="color:#2d4a2b">CYBER &middot; EUROPE</div>
+      </div>
+      <h2>Bulgaria: hackers stole 62M pages of state files</h2>
+      <p>Five-year espionage campaign disrupted, Sofia says.</p>
+    </div>
+  </div>
+
+  <div class="foot">
+    <b>FRIDAY 20 NOVEMBER 2026</b> &mdash; world news as reported that day. Sources: India Meteorological Department via The Week &amp; Kalinga TV,
+    Anadolu Agency morning briefing, Kyiv Independent, Al Jazeera, Newsquawk. Illustrations drawn in code, no photos.
+  </div>
+</body>
+</html>
